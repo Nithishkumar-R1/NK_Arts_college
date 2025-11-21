@@ -9,7 +9,7 @@ export default function Login() {
   const [password, setPassword] = useState("");
 
   const handleLogin = () => {
-    // Basic validation
+    
     if (!email || !password) {
       return Alert.alert("Error", "Email and Password are required");
     }
